@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <title>Trillo &mdash; Hotel booking app</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="img/logo3.jpg" alt="trillo logo" class="logo" />
+
+        <form action="#" class="search">
+          <input type="text" class="search_input" placeholder="Search Hotels" />
+          <button class="search_button">
+            <svg class="search_icon">
+              <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+
+        <nav class="user-nav">
+          <div class="user-nav_icon-box">
+            <svg class="user-nav_icon">
+              <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav_notification">7</span>
+          </div>
+          <div class="user-nav_icon-box">
+            <svg class="user-nav_icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav_notification">5</span>
+          </div>
+          <div class="user-nav_user">
+            <img
+              src="img/creator.png"
+              alt="user photo"
+              class="user-nav_user-photo"
+            />
+            <span class="user-nav_user-name">Nitish</span>
+          </div>
+        </nav>
+      </header>
+
+      <div class="content">
+        <nav class="sidebar">
+          <ul class="side-nav">
+            <li class="side-nav_item">
+              <a href="#" class="side-nav_link">
+                <svg class="side-nav_icon">
+                  <use href="img/sprite.svg#icon-home"></use>
+                </svg>
+                <span>Hotel</span>
+              </a>
+            </li>
+            <li class="side-nav_item">
+              <a href="#" class="side-nav_link">
+                <svg class="side-nav_icon">
+                  <use href="img/sprite.svg#icon-aircraft-take-off"></use>
+                </svg>
+                <span>Flight</span>
+              </a>
+            </li>
+            <li class="side-nav_item">
+              <a href="#" class="side-nav_link">
+                <svg class="side-nav_icon">
+                  <use href="img/sprite.svg#icon-key"></use>
+                </svg>
+                <span>Car Rental</span>
+              </a>
+            </li>
+            <li class="side-nav_item">
+              <a href="#" class="side-nav_link">
+                <svg class="side-nav_icon">
+                  <use href="img/sprite.svg#icon-map"></use>
+                </svg>
+                <span>Tours</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="legal">&copy; 2020 by NKP. All rights reserved.</div>
+        </nav>
+
+        <main class="hotel-view">
+          <div class="gallery">
+            <figure class="gallery_item">
+              <img src="img/hotel1.jpg" alt="" class="gallery_photo" />
+            </figure>
+            <figure class="gallery_item">
+              <img src="img/hotel2.jpg" alt="" class="gallery_photo" />
+            </figure>
+            <figure class="gallery_item">
+              <img src="img/hotel3.jpg" alt="" class="gallery_photo" />
+            </figure>
+          </div>
+
+          <div class="overview">
+            <h1 class="overview_heading">Hotel Taj Palace</h1>
+
+            <div class="overview_stars">
+              <svg class="overview_icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview_icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview_icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview_icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview_icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+            </div>
+
+            <div class="overview_location">
+              <svg class="overview_icon-location">
+                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+              </svg>
+              <button class="btn-inline">Delhi, India</button>
+            </div>
+
+            <div class="overview_rating">
+              <div class="overview_rating-average">8.6</div>
+              <div class="overview_rating-count">429 votes</div>
+            </div>
+          </div>
+
+          <div class="detail">
+            <div class="description">
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+                nisi dignissimos debitis ratione sapiente saepe. Accusantium
+                cumque, quas, ut corporis incidunt deserunt quae architecto
+                voluptate.
+              </p>
+              <p class="paragraph">
+                Accusantium cumque, quas, ut corporis incidunt deserunt quae
+                architecto voluptate delectus, inventore iure aliquid aliquam.
+              </p>
+              <ul class="list">
+                <li class="list_item">Close to the beach</li>
+                <li class="list_item">Breakfast Included</li>
+                <li class="list_item">Free airport shuttle</li>
+                <li class="list_item">Free wifi in all rooms</li>
+                <li class="list_item">Air conditioning and heating</li>
+                <li class="list_item">Pets allowed</li>
+                <li class="list_item">We speak all languages</li>
+                <li class="list_item">Perfect for families</li>
+              </ul>
+
+              <div class="recommend">
+                <p class="recommend_count">
+                  Anmol and 3 other friends recommend this hotel.
+                </p>
+                <img src="img/1.jpg" alt="" class="recommend_photo" />
+                <img src="img/4.jpg" alt="" class="recommend_photo" />
+                <img src="img/5.jpg" alt="" class="recommend_photo" />
+                <img src="img/6.jpg" alt="" class="recommend_photo" />
+              </div>
+            </div>
+            <div class="user_review">
+              <figure class="review">
+                <blockquote class="review_text">
+                  Accusantium cumque, quas, ut corporis incidunt deserunt quae
+                  architecto voluptate delectus, inventore iure aliquid aliquam.
+                </blockquote>
+                <figcaption class="review_user">
+                  <img src="img/2.jpg" alt="" class="review_photo" />
+                  <div class="review_user-box">
+                    <p class="review_user-name">Biswajit</p>
+                    <p class="review_user-date">September 15, 2020</p>
+                  </div>
+                  <div class="review_rating">8.1</div>
+                </figcaption>
+              </figure>
+
+              <figure class="review">
+                <blockquote class="review_text">
+                  Accusantium cumque, quas, ut corporis incidunt deserunt quae
+                  architecto voluptate delectus, inventore iure aliquid aliquam.
+                </blockquote>
+                <figcaption class="review_user">
+                  <img src="img/3.jpg" alt="" class="review_photo" />
+                  <div class="review_user-box">
+                    <p class="review_user-name">Soumen</p>
+                    <p class="review_user-date">August 12, 2020</p>
+                  </div>
+                  <div class="review_rating">7.8</div>
+                </figcaption>
+              </figure>
+              <button class="btn-inline">Show more &rarr;</button>
+            </div>
+          </div>
+          <div class="cta">
+            <h2 class="cta_book-now">
+              Good news&#33; we have 4 rooms left&#33;
+            </h2>
+            <button class="btn">
+              <span class="btn_visible">Book now</span>
+              <span class="btn_invisible">only 4 rooms left</span>
+            </button>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
